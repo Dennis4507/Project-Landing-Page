@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex; /* Makes the navbar a flex container */
+  background-color: #1f2937; /* Dark background color */
+  width: auto; /* Takes up the full width of the container */
+  height: 50px; /* Fixed height for the navbar */
+  padding: 0 15%; /* Adds horizontal padding on both sides */
+  margin: 0; /* Removes any default margin */
+  color: #f9faf8; /* Light text color */
+}
+
+.header-logo {
+  display: flex; /* Ensures the logo aligns properly */
+  font-size: 24px; /* Sets the font size for the logo */
+  align-items: center; /* Vertically centers the logo text */
+  margin-right: auto; /* Pushes the logo to the left */
+}
+
+.right-links {
+  display: flex; /* Makes the links container a flex container */
+  flex-direction: column; /* Stacks the links vertically */
+  justify-content: space-between; /* Adds space between the links */
+  align-items: center; /* Centers the links horizontally */
+}
+
+ul {
+  list-style: none; /* Removes default bullet points from the list */
+  display: flex; /* Makes the list items align horizontally */
+  align-items: center; /* Vertically centers the list items */
+  gap: 16px; /* Adds space between the list items */
+  font-weight: 200; /* Sets a light font weight for the links */
+}
+
+.sections-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.section1 {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  color: #f9faf8;
+  padding: 15px 15%;
+  min-height: 380px;
+}
+
+.section1-left > p {
+  font-size: 18px;
+  color: #e5e7eb;
+  filter: contrast(75%);
+  max-width: 60%;
+  margin: 0 0 10px 0;
+}
+
+.hero {
+  font-size: 48px;
+  font-weight: 900;
+  max-width: 70%;
+}
+
+button {
+  color: white;
+  background-color: #3882f6;
+  border-radius: 5px;
+  padding: 5px 30px;
+  border: none;
+  font-weight: 700;
+}
+
+.section1-right {
+  display: flex;
+  flex: 1;
+}
+
+.section1-right > img {
+  width: auto;
+  height: 325px;
+}
+
+.section2 {
+  color: #1f2937;
+  text-align: center;
+  padding: 15px 20%;
+  min-height: 380px;
+}
+.section2-container {
+  color: #1f2937;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section2 img {
+  height: 300px;
+  width: 200px;
+  border-radius: 7px;
+}
+
+.section2 > h1 {
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.section2-container p {
+  filter: contrast(75%);
+  max-width: 200px;
+}
+
+.section3 {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 70px 23% 10px 23%;
+  text-align: center;
+  min-height: 380px;
+}
+
+.quote {
+  display: flex;
+  justify-content: flex-center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 60px 0 75px;
+}
+
+.quote h2 {
+  font-weight: 200;
+  text-align: left;
+  flex: 1;
+  font-style: italic;
+  filter: contrast(50%);
+  color: #1f2937;
+  font-size: 36px;
+}
+
+.thor {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 100px;
+}
+
+.thor h3 {
+  margin-top: 0;
+}
+
+.section4 {
+  color: #f9faf8;
+  display: flex;
+  padding: 15px 15%;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section4-container {
+  background: #3882f6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 140px;
+}
+
+.section4-left > h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.section4-left > p {
+  padding: 0;
+  margin: 0;
+}
+
+.section4-right button {
+  font-size: 16px;
+  border: 2px solid #f9faf8;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer h3 {
+  font-size: 14px;
+  font-weight: 300;
+  filter: contrast(75%);
+}
